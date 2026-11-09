@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of John Gabriel Ildefonso, a first-year BS Information Technology student.">
+  <title>John Gabriel Ildefonso | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html" data-nav>JG<span>.</span></a>
+        <button class="menu-toggle pressable" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" data-page-link="home" data-nav aria-current="page">Home</a></li>
+          <li><a href="about.html" data-page-link="about" data-nav>About</a></li>
+          <li><a href="education.html" data-page-link="education" data-nav>Education</a></li>
+          <li><a href="family.html" data-page-link="family" data-nav>Family</a></li>
+          <li><a href="contact.html" data-page-link="contact" data-nav>Contact</a></li>
+          <li><button id="themeToggle" class="theme-toggle pressable" type="button" aria-label="Switch to dark mode" title="Switch theme">☾</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main home-main">
+      <section class="page-content hero-page">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> FIRST-YEAR BSIT STUDENT</p>
+            <h1>Hi, I'm <span id="typing-name">John Gabriel</span><span class="typing-cursor">|</span></h1>
+            <h2>Learning today. Building for tomorrow.</h2>
+            <p class="hero-description">I'm John Gabriel Ildefonso, a first-year Bachelor of Science in Information Technology student. I'm at the beginning of my journey in tech, learning how computers, software, and the web can turn ideas into something useful.</p>
+            <div class="hero-actions">
+              <a class="button button-primary pressable" href="about.html" data-nav>Get to know me <span>↗</span></a>
+              <a class="button button-outline pressable" href="contact.html" data-nav>Let's connect</a>
+            </div>
+            <div class="hero-note"><span class="note-line"></span> A little about my life, my family, and where I'm headed.</div>
+          </div>
+          <div class="hero-visual">
+            <div class="photo-frame tilt-card">
+              <div class="photo-placeholder">
+                <img src="images/profile.jpg" alt="Portrait of John Gabriel Ildefonso" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
+                <span class="placeholder-initials">JG</span>
+              </div>
+              <div class="photo-caption"><span class="caption-mark">✳</span><div><strong>John Gabriel Ildefonso</strong><small>Student • Aspiring IT Professional</small></div></div>
+            </div>
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="floating-tag tag-top">Curious mind <span>✦</span></div>
+            <div class="floating-tag tag-bottom"><span class="tag-dot"></span> Currently learning</div>
+          </div>
+        </div>
+        <div class="page-indicator">01 <span></span> 05</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-logo" href="index.html" data-nav>JG<span>.</span></a>
+      <p>Designed as a little corner of the internet to tell my story.</p>
+      <small>© <span class="current-year"></span> John Gabriel Ildefonso.</small>
+      <span class="footer-hint">USE THE MENU TO EXPLORE <b>↗</b></span>
+    </footer>
+  </div>
+</body>
+</html>
