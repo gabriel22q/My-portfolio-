@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The family of John Gabriel Ildefonso.">
+  <title>John Gabriel Ildefonso | Family</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body data-page="family">
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html" data-nav>JG<span>.</span></a><button class="menu-toggle pressable"
+          id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" data-page-link="home" data-nav>Home</a></li>
+          <li><a href="about.html" data-page-link="about" data-nav>Personal Information</a></li>
+          <li><a href="education.html" data-page-link="education" data-nav>Achievements</a></li>
+          <li><a href="family.html" data-page-link="family" data-nav aria-current="page">Family</a></li>
+          <li><a href="contact.html" data-page-link="contact" data-nav>Contact</a></li>
+          <li><button id="themeToggle" class="theme-toggle pressable" type="button" aria-label="Switch to dark mode"
+              title="Switch theme">☾</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-content inner-page family-page">
+        <div class="page-title centered">
+          <p class="eyebrow">03 / THE PEOPLE BEHIND ME</p>
+          <h1>My family, <span>my foundation.</span></h1>
+          <p class="section-subtitle">My family is an important part of my life and my story. Their care, guidance, and
+            support encourage me to keep moving forward.</p>
+        </div>
+        <div class="family-grid">
+          <article class="family-card tilt-card">
+            <div class="family-image"><img src="images/father.jpg" alt="Photo of my father"
+                onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"><span
+                class="image-fallback">F</span></div>
+            <div class="family-card-copy"><span class="family-role">MY FATHER</span>
+              <h2>A source of guidance</h2>
+              <p>My father is one of the people I look up to. His presence and guidance remind me of the importance of
+                responsibility, patience, and doing my best.</p>
+            </div>
+          </article>
+          <article class="family-card tilt-card">
+            <div class="family-image"><img src="images/mother.jpg" alt="Photo of my mother"
+                onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"><span
+                class="image-fallback">M</span></div>
+            <div class="family-card-copy"><span class="family-role">MY MOTHER</span>
+              <h2>A steady source of care</h2>
+              <p>My mother gives me care and encouragement. I appreciate the support she gives and the everyday ways she
+                helps make our family feel at home.</p>
+            </div>
+          </article>
+          <article class="family-card tilt-card">
+            <div class="family-image"><img src="images/family.jpg" alt="Photo of my family"
+                onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"><span
+                class="image-fallback">♡</span></div>
+            <div class="family-card-copy"><span class="family-role">MY FAMILY</span>
+              <h2>The people I come home to</h2>
+              <p>My family gives me a sense of belonging. The time we share and the support we give one another are
+                things I value and never want to take for granted.</p>
+            </div>
+          </article>
+        </div>
+        <p class="family-note">You can personalize these messages with real memories, lessons, or qualities that
+          describe your family.</p>
+        <nav class="page-switcher" aria-label="Explore all portfolio pages">
+          <span class="switcher-label">EXPLORE</span>
+          <div class="switcher-links">
+            <a href="index.html" data-nav data-page-link="home">Home</a>
+            <a href="about.html" data-nav data-page-link="about">Personal Information</a>
+            <a href="education.html" data-nav data-page-link="education">Achievements</a>
+            <a href="family.html" data-nav data-page-link="family" aria-current="page">Family</a>
+            <a href="contact.html" data-nav data-page-link="contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="page-indicator">04 <span></span> 05</div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-logo" href="index.html" data-nav>JG<span>.</span></a>
+      <p>Designed as a little corner of the internet to tell my story.</p><small>© <span class="current-year"></span>
+        John Gabriel Ildefonso.</small><span class="footer-hint">USE THE MENU TO EXPLORE <b>↗</b></span>
+    </footer>
+  </div>
+</body>
+
+</html>

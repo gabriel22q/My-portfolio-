@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The personal portfolio of John Gabriel Ildefonso, a first-year BS Information Technology student.">
+  <title>John Gabriel Ildefonso | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body data-page="home">
+  <div class="home-loader" id="homeLoader" aria-label="Loading portfolio" role="status">
+    <div class="loader-mark">JG<span>.</span></div>
+    <p class="loader-welcome">Welcome to my portfolio</p>
+    <p class="loader-subtitle">A glimpse into my story, journey, and goals.</p>
+    <div class="loader-track"><span></span></div><small>JOHN GABRIEL ILDEFONSO</small>
+  </div>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html" data-nav>JG<span>.</span></a>
+        <button class="menu-toggle pressable" id="menuToggle" type="button" aria-label="Open navigation"
+          aria-expanded="false">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" data-page-link="home" data-nav aria-current="page">Home</a></li>
+          <li><a href="about.html" data-page-link="about" data-nav>Personal Information</a></li>
+          <li><a href="education.html" data-page-link="education" data-nav>Achievements</a></li>
+          <li><a href="family.html" data-page-link="family" data-nav>Family</a></li>
+          <li><a href="contact.html" data-page-link="contact" data-nav>Contact</a></li>
+          <li><button id="themeToggle" class="theme-toggle pressable" type="button" aria-label="Switch to dark mode"
+              title="Switch theme">☾</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main home-main">
+      <section class="page-content hero-page">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1 class="home-greeting"><span class="greeting-line">Hi, I'm</span><br><span id="typing-name"
+                class="typing-name" aria-label="John Gabriel Ildefonso">John Gabriel Ildefonso</span></h1>
+            <div class="student-identity" aria-label="Academic information"><span class="identity-section">Black
+                Section</span><span class="identity-class">CITCS 1F-B</span><span class="identity-track">Network and
+                Security Track</span></div>
+          </div>
+          <div class="hero-visual">
+            <div class="photo-frame tilt-card">
+              <div class="photo-placeholder">
+                <img src="images/profile.jpg" alt="Portrait of John Gabriel Ildefonso"
+                  onerror="this.style.display='none'; this.parentElement.classList.add('no-photo');">
+                <span class="placeholder-initials image-fallback">JG</span>
+              </div>
+              <div class="photo-caption"><span class="caption-mark">✳</span>
+                <div><strong>John Gabriel Ildefonso</strong><small>Student • Aspiring IT Professional</small></div>
+              </div>
+            </div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="floating-tag tag-top">Curious mind <span>✦</span></div>
+            <div class="floating-tag tag-bottom"><span class="tag-dot"></span> Currently learning</div>
+          </div>
+        </div>
+        <nav class="page-switcher" aria-label="Explore all portfolio pages">
+          <span class="switcher-label">EXPLORE</span>
+          <div class="switcher-links">
+            <a href="index.html" data-nav data-page-link="home" aria-current="page">Home</a>
+            <a href="about.html" data-nav data-page-link="about">Personal Information</a>
+            <a href="education.html" data-nav data-page-link="education">Achievements</a>
+            <a href="family.html" data-nav data-page-link="family">Family</a>
+            <a href="contact.html" data-nav data-page-link="contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="page-indicator">01 <span></span> 05</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-logo" href="index.html" data-nav>JG<span>.</span></a>
+      <p>Designed as a little corner of the internet to tell my story.</p>
+      <small>© <span class="current-year"></span> John Gabriel Ildefonso.</small>
+      <span class="footer-hint">USE THE MENU TO EXPLORE <b>↗</b></span>
+    </footer>
+  </div>
+</body>
+
+</html>
